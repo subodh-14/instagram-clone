@@ -64,7 +64,7 @@ function Post({ postId, user, username, caption, imageUrl }) {
                     })
                 }
             </div>
-            {user &
+            
 
                 <form className="post__commentbox">
                     <input className="post__input" type="text" placeholder="add comments"
@@ -72,7 +72,7 @@ function Post({ postId, user, username, caption, imageUrl }) {
 
                     <button className="post__button" disabled={!comment} type="submit" onClick={postComment}>Post</button>
                 </form>
-            }
+            
 
         </div>
     )
